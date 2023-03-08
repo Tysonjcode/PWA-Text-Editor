@@ -1,9 +1,14 @@
 {
-  "name": "JATE",
+  "name": "TextEditor",
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.4.1"
+  },
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
-    "start": "webpack --watch"
+    "start": "webpack --watch",
+    "test": "nodemon server.js"
   },
   "author": "2U",
   "license": "UNLICENSED",
